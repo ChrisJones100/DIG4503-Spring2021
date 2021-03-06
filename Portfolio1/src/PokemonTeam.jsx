@@ -46,7 +46,7 @@ export default class PokemonTeam extends React.Component {
       <div style={{ width: "100vw", height: "100vh" }}>
         <div className='controls'>
           
-          <button onClick={onClick}>Click me!</button>
+          <button onClick={onClick}>Make Team!</button>
           <ResetButton onClick={() => this.setState({ teamMembers: [] })} />
         </div>
         <div className='team-members-container'>
